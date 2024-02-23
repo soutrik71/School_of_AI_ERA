@@ -15,3 +15,5 @@ env/
 lib/
 libs/
 node_modules/
+/data/
+/data/*
