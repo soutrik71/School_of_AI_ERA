@@ -34,6 +34,21 @@
 
 ## Model Expansion
 
+### Target:
+
+    1. Application of model size by using a GAP before the classifier
+    2. Expected tiny dip in performance metrics
+
+### Results:
+    
+        1. Parameters: 8.9k
+        2. Best Training Accuracy: 99.05
+        3. Best Test Accuracy: 99.28
+
+### Analysis:
+    1. Lowered param space due to GAP 
+    2. Miniscul Fall in perf metrics
+
 
 
 
