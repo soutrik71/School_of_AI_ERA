@@ -41,7 +41,7 @@
 
 ### Results:
     
-        1. Parameters: 8.9k
+        1. Parameters: 7114
         2. Best Training Accuracy: 99.05
         3. Best Test Accuracy: 99.28
 
@@ -53,3 +53,34 @@
 
 
 ## Optimization Tricks
+
+### Target:
+    
+        1. Application of LR uisng ExponentialLR on Drop out baseline model
+        2. Increased validation Accuracy
+
+### Results:
+    
+        1. Parameters: 8.9k
+        2. Best Training Accuracy: 99.33
+        3. Best Test Accuracy: 99.47
+
+### Analysis:
+    1. Consistent improved performance for test data
+
+
+### Target:
+        
+            1. Application of LR uisng ExponentialLR with GAP model
+            2. Increased validation Accuracy to great extent and far better than training accuracy
+
+### Results:
+            
+                1. Parameters: 7,114
+                2. Best Training Accuracy: 99.19
+                3. Best Test Accuracy: 99.52
+
+### Analysis:
+    1. Consistent improved performance for test data
+    2. Increased gap in performance on test data as compared to training data
+    3. Best Performing model so far
