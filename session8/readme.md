@@ -82,20 +82,6 @@ Misclassified Images->
 ![alt text](image-14.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Links:
 https://medium.com/@zljdanceholic/groupnorm-then-batchnorm-instancenorm-layernorm-e2b2a1d350a0
 https://wandb.ai/wandb_fc/Normalization/reports/Normalization-Series-What-is-Batch-Norm---VmlldzoxMjk2ODcz
