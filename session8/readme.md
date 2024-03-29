@@ -57,10 +57,29 @@ Misclassified Images->
 
 ## Layer Normalization
 
-WIP
+### Target:
 
+* Make this network: C1 C2 c3 P1 C4 C5 C6 c7 P2 C8 C9 C10 GAP c11 cN is 1x1 Layer
+* Keep the parameter count less than 50000
+* Max Epochs is 20
+* Use of Group Normalization with DP
 
+### Results:
 
+- The model used is a Cifar_Baseline, which is a convolutional neural network with three convolution blocks, each followed by a transition block.
+- The model achieved a training accuracy of 60% and a validation accuracy of 61%.
+- The model's training loss was 1.15 and its validation loss was 1.01.
+- The model's confusion matrix showed that it was most accurate at classifying Autombile and least accurate at classifying Cats.
+- Early stopping was triggered after N epochs due to lack of improvement in validation loss.
+- LayerNorm doesnot work well in case of CNN
+
+### References:
+
+![alt text](image-10.png)
+![alt text](image-11.png)
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
 
 
 
