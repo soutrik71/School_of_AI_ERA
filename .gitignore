@@ -17,3 +17,5 @@ libs/
 node_modules/
 /data/
 /data/*
+session9/data/
+image_augmentation/data/
