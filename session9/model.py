@@ -6,17 +6,12 @@ import torch.optim as optim
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from torch.optim.lr_scheduler import (
-    ExponentialLR,
-    OneCycleLR,
-    ReduceLROnPlateau,
-    StepLR,
-)
+from torch.optim.lr_scheduler import (ExponentialLR, OneCycleLR,
+                                      ReduceLROnPlateau, StepLR)
 from torch.utils.data import DataLoader, Dataset
 from torcheval.metrics import BinaryAccuracy, MulticlassAccuracy
 from torchsummary import summary
 from torchview import draw_graph
-from torchvision.transforms import ToTensor
 from tqdm import tqdm
 
 
@@ -206,6 +201,7 @@ class DialatedClassificationTransition(nn.Module):
 
 
 class DepthwiseSeparableClassifierSync(nn.Module):
+    """This class is used to create a model with depthwise separable convolution and transition block for CIFAR10 dataset"""
     def __init__(
         self,
         in_channels,

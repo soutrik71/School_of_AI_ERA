@@ -384,6 +384,18 @@ Estimated Total Size (MB): 20.41
 ![alt text](image-3.png)
 
 
+## References
+https://eli.thegreenplace.net/2018/depthwise-separable-convolutions-for-machine-learning/
+https://towardsdatascience.com/a-primer-on-atrous-convolutions-and-depth-wise-separable-convolutions-443b106919f5
+https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d
+https://vaibhaw-vipul.medium.com/building-a-dilated-convnet-in-pytorch-f7c1496d9bf5
+https://discuss.pytorch.org/t/how-to-modify-a-conv2d-to-depthwise-separable-convolution/15843/10
+https://faun.pub/depthwise-separable-convolutions-in-pytorch-fd41a97327d0
+https://github.com/seungjunlee96/Depthwise-Separable-Convolution_Pytorch/blob/master/DepthwiseSeparableConvolution/DepthwiseSeparableConvolution.py
+https://www.paepper.com/blog/posts/depthwise-separable-convolutions-in-pytorch/
+https://mike-12.medium.com/depthwise-separable-convolutions-simple-image-classification-with-pytorch-7f7d2ba06af7
+
+
 
 
 
